@@ -7,7 +7,7 @@
     letter-spacing: 0.5px;
 }
 body{
-    background-color: #0c1957;/*rgb(195, 195, 223);*/  
+    background-color: #0c1857e0;/*rgb(195, 195, 223);*/  
     min-height: 100vh;
     color: white;
     position: relative;
@@ -133,7 +133,7 @@ h5{
 .about-me:hover{
     border: 1px solid #001aff;
     transform: translateY(-12px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897);
 }
 .about-me:active{
     transform: scale(0.97);
