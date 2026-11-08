@@ -1,23 +1,16 @@
 const menuBtn = document.querySelector(".menu-btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 
-menuBtn.addEventListener("click", function() {
+menuBtn.addEventListener("click", function(event) {
+
+    event.stopPropagation();
+
     mobileMenu.classList.toggle("active");
 });
-/*function showPage(page){
-    const sections=document.querySelectorAll("main section");
 
-    sections.forEach(function (section){
-        section.style.display="none"
-    })
-        const selectedSection=document.getElementById(page);
+document.addEventListener("click", function(event){
 
-    if(selectedSection){
-        selectedSection.style.display="block";
-    }
-
-        
-     
-}*/
+    
         mobileMenu.classList.remove("active");
-         window.scrollTo(0, 0)  
+    
+});

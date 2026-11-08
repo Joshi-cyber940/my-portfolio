@@ -3,11 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #5a66cfe5;
     letter-spacing: 0.5px;
 }
 body{
-    background-color: #0f172a;/*rgb(195, 195, 223);*/  
+    background-color: #0b1120;/*rgb(195, 195, 223);*/  
     min-height: 100vh;
     color: white;
     position: relative;
@@ -18,7 +17,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #03072ce5;
+    background-color: #080d1a;
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -56,17 +55,17 @@ nav{
 
 }
 nav a{
-    color: #182acce5;
+    color: #f8fafc;
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
     margin-left: 30px;
 }
 nav a:hover{
-    color: #f3f3f7cc;
+    color: #182acce5;
 }
 nav a:active{
-    color: #6a6fa1;
+    color: #182acc;
 }
 .menu-btn{
     display: none;
@@ -75,14 +74,16 @@ h1{
     font-size: 80px;
     margin-top: 150px;
     margin-bottom: 20px;
-    color: #001aff;
+    color: /*#001aff*/#f8fafc;
 }
 div h2{
     font-size: 35px;
     margin-bottom: 20px;
-    color: #182acce5;
+    color: #f8fafc;
 }
-
+p{
+    color: #A1AFC3;
+}
 .button-flex{
     display: flex;
     flex-direction: row;
@@ -91,8 +92,8 @@ div h2{
 }
 .refer{
     padding: 20px 50px;
-    background-color: #001aff;
-    color: #efefef;
+    background-color: /*#001aff*/#3b82f6;
+    color: #ffffff;
     margin: 10px;
     font-size: 15px;
     font-weight: 700;
@@ -115,7 +116,7 @@ h5{
 .nest{
     text-align: center;
     font-size: 45px;
-    color: #efefef;
+    color: #f8fafc;
     margin-bottom: 80px;
 }
 .about-container{
@@ -124,14 +125,14 @@ h5{
     grid-template-columns: repeat(3, 1fr);
 }
 .about-me{
-    background-color: #02083d;/*rgb(233, 234, 245);*/
+    background-color: #151f32;/*rgb(233, 234, 245);*/
     padding: 25px;
     max-width: 100%;
     border-radius: 12px;
     word-wrap: break-word;
 }
 .about-me:hover{
-    border: 1px solid #001aff;
+    border: 1px solid #3b82f6;
     transform: translateY(-12px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897);
 }
@@ -145,7 +146,7 @@ h5{
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 23px;
-    color: #182acce5;
+    color: /*#182acce5*/#f8fafc;
 }
 .about-me p{
     padding-top: 17px;
@@ -159,13 +160,13 @@ h5{
 .skill-card{
     width: 35%;
     padding: 25px;
-    background-color:#02083d;;
+    background-color:#151f32;;
     border-radius: 12px;
     text-align: center;
 }
 .skill-card:hover{
-    border: 1px solid #001aff;
-    box-shadow: 0 10px  20px;
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 20px;
     transform: scale(1.06);
 }
 .skill-card:active{
@@ -175,7 +176,7 @@ h5{
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: 700;
-    color: #001aff;
+    color: /*#001aff*/#f8fafc;
 }
 .project-container{
     display: grid;
@@ -183,12 +184,12 @@ h5{
     gap: 25px;
 }
 .project-card{
-    background-color:#02083d;;
+    background-color:#151f32;;
     padding: 25px;
     border-radius: 12px;
 }
 .project-card:hover{
-    border: 1px solid #001aff;
+    border: 1px solid #3b82f6;
     transform: translateY(-12px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
@@ -198,14 +199,14 @@ h5{
 .project-card h4{
     margin-top: 20px;
     font-size: 20px;
-    color: #182acce5;
+    color: /*#182acce5*/#f8fafc;
 }
 .project-card p{
     line-height: 30px;
     margin-top: 22px;
 }
 .project-card span{
-    background-color: #0b1fd3d0;
+    background-color: #3b82f6;
     color: #efefef;
     padding: 4px;
     border-radius: 10px;
@@ -225,7 +226,7 @@ h5{
 }
 .project-card a{
     text-decoration: none;
-    color: #001aff;
+    color: #3b82f6;
     font-size: 18px;
     font-weight: 600;
 }
@@ -261,9 +262,9 @@ h5{
     width: 50px;
 }
 footer {
+    font-size: 12px;
     text-align: center;
     padding: 25px;
-    background-color: #03072ce5;
     color: white;
 }
 /*div{
@@ -277,7 +278,7 @@ footer {
         position: absolute;
         top: 80px;
         right: 20px;
-        background-color: #03072ce5;
+        background-color: #080d1a;
         backdrop-filter: blur(10px);
         padding: 15px;
         border-radius: 10px;
@@ -301,15 +302,19 @@ footer {
         display: block;
         margin: 0;
         padding: 12px 55px;
-        background-color: #182acce5;
-        color: #080d38;
+        background-color: #1e293b;
+        color: #f8fafc;
         border-radius: 8px;
         text-align: center;
         min-width: 120px;
     }
     nav a:hover{
-        background-color: #121b6de5;
+        background-color: #3b82f6;
         color: white;
+    }
+    nav a:active{
+        background-color: white;
+        color: #3b82f6;
     }
     .home{
         min-height: 100vh;
@@ -337,12 +342,11 @@ footer {
         padding: 15px 25px;
         min-width:95%;
         border: 1px solid #2330a5e5;
-        background-color: #121b6de5;
         color: rgb(225, 225, 225);
     }
     .refer:hover{
-        transform: translateY(-10px);
-        background-color: #02083be5;
+        transform: translateY(-3px);
+        background-color: #22d3ee;
         color: white;
         transition: 0.3s;
     }
